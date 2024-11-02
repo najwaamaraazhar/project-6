@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="1WIVNbYRvYtn-QO3oHUY">
+    <mxGraphModel dx="2950" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fLL10-U48EY1--GJguee-1" value="Mulai" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="205" y="20" width="69" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-2" value="Inisialisasi Serial" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="165" y="118" width="148" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-3" value="Inisialisasi WiFi dengan SSID dan Password" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="217" width="256" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-4" value="Status WiFi Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="132" y="333" width="213" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-5" value="Tunggu 1 detik dan cetak Menghubungkan..." style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="-50" y="640" width="251" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-6" value="Tampilkan Terhubung ke WiFi! dan Alamat IP" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="281" y="618" width="259" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-7" value="Mulai Server pada Port 80" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="275" y="734" width="214" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-8" value="Loop" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="351" y="833" width="64" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-9" value="Client Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="820" width="176" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-10" value="Tampilkan Client connected di Serial" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="45" y="1202" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-11" value="Tampilkan HTML Selamat Datang di Web Amara dan Nisa! ke Client" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1318" width="442" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-12" value="Tunggu 1 ms" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="99" y="1452" width="118" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-13" value="Putuskan Koneksi Client" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="1550" width="201" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-14" value="Tampilkan Client disconnected di Serial" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="260" y="1649" width="238" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-1" target="fLL10-U48EY1--GJguee-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-2" target="fLL10-U48EY1--GJguee-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-3" target="fLL10-U48EY1--GJguee-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-18" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-4" target="fLL10-U48EY1--GJguee-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0.01;rounded=0;entryX=0.446;entryY=0.932;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-5" target="fLL10-U48EY1--GJguee-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="220" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-20" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-4" target="fLL10-U48EY1--GJguee-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="383" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-6" target="fLL10-U48EY1--GJguee-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-7" target="fLL10-U48EY1--GJguee-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-0.01;exitY=0.81;rounded=0;entryX=0.835;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-8" target="fLL10-U48EY1--GJguee-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="880" />
+            </Array>
+            <mxPoint x="230" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-24" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.16;entryY=1.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-9" target="fLL10-U48EY1--GJguee-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="329" y="917" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-25" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-9" target="fLL10-U48EY1--GJguee-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-10" target="fLL10-U48EY1--GJguee-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-11" target="fLL10-U48EY1--GJguee-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-12" target="fLL10-U48EY1--GJguee-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.11;entryY=-0.01;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-13" target="fLL10-U48EY1--GJguee-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="1624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLL10-U48EY1--GJguee-30" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.76;entryY=1.01;rounded=0;" edge="1" parent="1" source="fLL10-U48EY1--GJguee-14" target="fLL10-U48EY1--GJguee-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="1630" />
+              <mxPoint x="399" y="1450" />
+              <mxPoint x="399" y="1270" />
+              <mxPoint x="399" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
