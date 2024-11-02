@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="wq8zwH7Lhr07VblmPe8W">
+    <mxGraphModel dx="1034" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-1" value="Mulai" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-50" width="98" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-2" value="Inisialisasi Serial dengan baud rate 9600" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="49" width="234" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-3" value="Set mode WiFi ke WIFI_STA" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="57" width="254" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-4" value="Inisialisasi ESP-NOW" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="439" y="165" width="203" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-5" value="Gagal menginisialisasi ESP-NOW" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="286" width="217" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-6" value="Registrasi callback penerimaan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="286" width="193" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-7" value="Set role ESP-NOW ke ESP_NOW_ROLE_SLAVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="302" y="403" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-8" value="Menunggu data diterima" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296" y="519" width="235" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-9" value="Data diterima" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="617" width="159" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-10" value="Tampilkan alamat MAC pengirim" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="229" y="716" width="223" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-11" value="Tampilkan pesan yang diterima" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="832" width="217" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-12" value="Selesai" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="614" y="411" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-1" target="6oOdDg_ICLzdwOdMTApd-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" />
+              <mxPoint x="247" y="24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-1" target="6oOdDg_ICLzdwOdMTApd-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" />
+              <mxPoint x="541" y="24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-3" target="6oOdDg_ICLzdwOdMTApd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-16" value="Gagal" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-4" target="6oOdDg_ICLzdwOdMTApd-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-17" value="Sukses" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-4" target="6oOdDg_ICLzdwOdMTApd-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-6" target="6oOdDg_ICLzdwOdMTApd-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-7" target="6oOdDg_ICLzdwOdMTApd-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-8" target="6oOdDg_ICLzdwOdMTApd-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-9" target="6oOdDg_ICLzdwOdMTApd-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.31;entryY=0.01;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-10" target="6oOdDg_ICLzdwOdMTApd-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.01;entryX=0.65;entryY=0.99;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-11" target="6oOdDg_ICLzdwOdMTApd-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="487" y="807" />
+              <mxPoint x="487" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oOdDg_ICLzdwOdMTApd-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="6oOdDg_ICLzdwOdMTApd-5" target="6oOdDg_ICLzdwOdMTApd-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
